@@ -7,9 +7,10 @@ import { NavLink } from "react-router-dom";
 const Headers = () => {
   return (
     <>
+    <br></br><br></br><br></br>
       <Navbar style={{ backgroundColor: 'lightblue' }} variant="light">
         <Container>
-          <NavLink to="/" className="navbar-brand custom-title">Medical Image Captioning</NavLink>
+          <NavLink to="/" className="navbar-brand custom-title">MEDICAL IMAGE CAPTIONING</NavLink>
           <Nav className="">
             <NavLink to="/register" className="mt-3 mx-2 text-light text-decoration-none"></NavLink>
           </Nav>

@@ -11,8 +11,7 @@ import Deeplearning from './pages/Deeplearning';
 import Llm from './pages/Llm';
 
 const App = () => {
-   
-    
+     
 
     return (
         <div>
@@ -22,8 +21,7 @@ const App = () => {
                 <Route path="/register" element={<Register />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/user/otp" element={<Otp />} />
-                <Route path="/llm" element={<Llm />} />
-                <Route path="/llm2" element={<Llm2/>} />
+                <Route path="/llm" element={<Llm />} />        
                 <Route path="/deeplearning" element={<Deeplearning />} />
                 <Route path="*" element={<Error />} />
             </Routes>
